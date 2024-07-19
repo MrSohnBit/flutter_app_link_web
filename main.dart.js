@@ -23545,14 +23545,13 @@ _.q$=0
 _.E$=b
 _.a2$=_.a0$=0
 _.X$=!1},
-bQ:function bQ(a,b,c,d,e,f,g){var _=this
+bQ:function bQ(a,b,c,d,e,f){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.e=e
-_.f=f
-_.r=g},
+_.f=f},
 aCe(){var s,r,q,p,o,n,m,l=null
 if($.af==null)A.ayb()
 s=$.af
@@ -77517,9 +77516,11 @@ A.we.prototype={
 ap(){return new A.NW(new A.Js(B.xY,$.as()),B.l)}}
 A.NW.prototype={
 Bh(a){return this.a4D(a)},
-a4D(a){var s=0,r=A.T(t.H),q=this
+a4D(a){var s=0,r=A.T(t.H),q=this,p
 var $async$Bh=A.U(function(b,c){if(b===1)return A.Q(c,r)
-while(true)switch(s){case 0:q.kO("{'type': '"+a.c+"','landingType': '"+a.d+"','landingUrl': '"+a.e+"','storeId': "+a.a+",'bankAccountId': '"+a.f+"','reportMessageId': '"+a.r+"'}")
+while(true)switch(s){case 0:p=q.e
+p=p===""?-1:A.hT(p,null)
+q.kO("{'type': '"+a.b+"','landingType': '"+a.c+"','landingUrl': '"+a.d+"','storeId': "+p+",'bankAccountId': '"+a.e+"','reportMessageId': '"+a.f+"'}")
 return A.R(null,r)}})
 return A.S($async$Bh,r)},
 kO(a){return this.a4C(a)},
@@ -77548,12 +77549,8 @@ break
 case 4:throw A.e("Could not launch "+o)
 case 3:return A.R(null,r)}})
 return A.S($async$kO,r)},
-O(a){var s,r,q=this,p=null,o="appInfo",n="inapp",m=q.e
-m=m===""?-1:A.hT(m,p)
-s=A.b([new A.bQ(m,"\uc77c\uc77c \ub9ac\ud3ec\ud2b8",o,n,"dailyReport","",""),new A.bQ(m,"\uc785\uae08\uc608\uc815 \ub9ac\ud3ec\ud2b8",o,n,"dailyExpectReport","",""),new A.bQ(m,"\ub9e4\ucd9c\uc815\uc0b0 \ub9ac\ud3ec\ud2b8",o,n,"dailySettlementReport","",""),new A.bQ(m,"\ub9c8\uac10 \ub9ac\ud3ec\ud2b8",o,n,"closeReport","",""),new A.bQ(m,"\ub9c8\uac10 \ub9ac\ud3ec\ud2b8",o,n,"landing_daily","",""),new A.bQ(m,"\ucde8\uc18c \uac70\ub798 \ub0b4\uc5ed \ud654\uba74",o,n,"landing_cancel","",""),new A.bQ(m,"\uc54c\ub9bc \ub0b4\uc5ed \ub9ac\uc2a4\ud2b8",o,n,"landing_push_list","",""),new A.bQ(m,"\uce74\ub4dc \ubbf8\uc9c0\uae09\uae08 \ub0b4\uc5ed(\ubbf8\ub9e4\uc785)",o,n,"landing_non_settlement","",""),new A.bQ(m,"\uce74\ub4dc \ubbf8\uc9c0\uae09\uae08 \ub0b4\uc5ed(\uc785\uae08\ubcf4\ub958)",o,n,"landing_non_settlement_hold","",""),new A.bQ(m,"\ub85c\uadf8\uc778 \ud654\uba74",o,n,"landing_login","",""),new A.bQ(m,"\ub9e4\uc7a5 \ubbf8\ub4f1\ub85d",o,n,"landing_store_regist","",""),new A.bQ(m,"\ub370\uc774\ud130 \ubbf8\uc5f0\ub3d9(\ud3ec\uc2a4\uc5f0\ub3d9)",o,n,"landing_data_regist","",""),new A.bQ(m,"\uacf5\uc9c0\uc0ac\ud56d",o,n,"landing_notice","",""),new A.bQ(m,"\ubd80\uac00\uc138 \uc2e0\uccad",o,n,"landing_vat_request","",""),new A.bQ(m,"\uc0c8\ub85c\uc6b4 \uc5f0\ub3d9\uc720\uc800 \uc54c\ub9bc, \ucd08\ub300\uad00\ub9ac\uc790 \ub0b4\ubcf4\ub0b4\uae30 \ub2f9\ud560\ub54c",o,n,"landing_store_info","",""),new A.bQ(m,"\uacb0\uc81c\uc815\ubcf4 \ud655\uc778",o,n,"landing_cardlist","",""),new A.bQ(m,"\uc6b0\ub9ac \uac00\uac8c \ub9ac\ubdf0 \ud398\uc774\uc9c0\ub85c \uc774\ub3d9",o,n,"landing_delivery_review","",""),new A.bQ(m,"POS \uba54\ub274\ubcc4 \ub9e4\ucd9c",o,n,"landing_menu","",""),new A.bQ(m,"\uba54\uc778 \ub300\uc2dc\ubcf4\ub4dc",o,n,"landing_home","",""),new A.bQ(m,"\uba54\uc778 \uce98\ub9b0\ub354",o,n,"landing_calendar","",""),new A.bQ(m,"\uba54\uc778 \ubaa8\ub4e0\ub0b4\uc5ed",o,n,"landing_all_list","",""),new A.bQ(m,"\uba54\uc778 \ub9e4\uc7a5\ube44\uc11c",o,n,"landing_secretary","",""),new A.bQ(m,"\ub0b4\uc5ed\ubcf4\uae30 - \uce74\ub4dc\ud658\uae09\uae08 \uc870\ud68c(\ubc30\ub108\uc5d0\uc11c\ub9cc \uc0ac\uc6a9)",o,n,"landing_commission_refund","",""),new A.bQ(m,"\uc0c1\uad8c\ubd84\uc11d \ub3d9\uc885\uc5c5\ub9e4\ucd9c\ube44\uad50\ub85c \uc774\ub3d9",o,n,"landing_zini_biz","",""),new A.bQ(m,"\ubd80\uac00\uc138 \uc2e0\uace0 \uc790\ub8cc \ubc1c\uc1a1 \uacb0\uacfc \ud654\uba74",o,n,"landing_vat_result","",""),new A.bQ(m,"CJFW \uc8fc\uc18c/\uc5c5\uc885 \ud654\uba74",o,n,"landing_deliveryinfo","",""),new A.bQ(m,"CJFW \uc5c5\uc885 \uc120\ud0dd \ud654\uba74",o,n,"landing_bizcode","",""),new A.bQ(m,"CJFW \uc8fc\uc18c \uac80\uc0c9 \ud654\uba74",o,n,"landing_address","",""),new A.bQ(m,"AS \ubb38\uc758 \uc6f9\ud398\uc774\uc9c0\ub85c \uc774\ub3d9(landingType: inapp)",o,n,"landing_web_as","","")],t.UW)
-m=A.b([$.apX(),new A.G7(8,p)],t.VS)
-r=A.al3(p,new A.hm(4,B.eH,B.l1),p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,"Store ID \uc785\ub825",p,p,p,p,p,p,p,p,p,p,p,p,p)
-return new A.xu(new A.tG(B.P1,new A.OU(p,p,1/0,56),p),new A.dP(B.C4,A.agj(A.b([B.KO,new A.yn(q.d,r,B.LC,B.KR,B.KS,new A.ab3(q),m,!0,p),B.KP,A.aup(A.avc(new A.ab4(q,s),29,new A.ab5()))],t.F),B.eX,B.e5,B.rI),p),p)}}
+O(a){var s=null,r="appInfo",q="inapp",p=A.b([new A.bQ("\uc77c\uc77c \ub9ac\ud3ec\ud2b8",r,q,"dailyReport","",""),new A.bQ("\uc785\uae08\uc608\uc815 \ub9ac\ud3ec\ud2b8",r,q,"dailyExpectReport","",""),new A.bQ("\ub9e4\ucd9c\uc815\uc0b0 \ub9ac\ud3ec\ud2b8",r,q,"dailySettlementReport","",""),new A.bQ("\ub9c8\uac10 \ub9ac\ud3ec\ud2b8",r,q,"closeReport","",""),new A.bQ("\ub9c8\uac10 \ub9ac\ud3ec\ud2b8",r,q,"landing_daily","",""),new A.bQ("\ucde8\uc18c \uac70\ub798 \ub0b4\uc5ed \ud654\uba74",r,q,"landing_cancel","",""),new A.bQ("\uc54c\ub9bc \ub0b4\uc5ed \ub9ac\uc2a4\ud2b8",r,q,"landing_push_list","",""),new A.bQ("\uce74\ub4dc \ubbf8\uc9c0\uae09\uae08 \ub0b4\uc5ed(\ubbf8\ub9e4\uc785)",r,q,"landing_non_settlement","",""),new A.bQ("\uce74\ub4dc \ubbf8\uc9c0\uae09\uae08 \ub0b4\uc5ed(\uc785\uae08\ubcf4\ub958)",r,q,"landing_non_settlement_hold","",""),new A.bQ("\ub85c\uadf8\uc778 \ud654\uba74",r,q,"landing_login","",""),new A.bQ("\ub9e4\uc7a5 \ubbf8\ub4f1\ub85d",r,q,"landing_store_regist","",""),new A.bQ("\ub370\uc774\ud130 \ubbf8\uc5f0\ub3d9(\ud3ec\uc2a4\uc5f0\ub3d9)",r,q,"landing_data_regist","",""),new A.bQ("\uacf5\uc9c0\uc0ac\ud56d",r,q,"landing_notice","",""),new A.bQ("\ubd80\uac00\uc138 \uc2e0\uccad",r,q,"landing_vat_request","",""),new A.bQ("\uc0c8\ub85c\uc6b4 \uc5f0\ub3d9\uc720\uc800 \uc54c\ub9bc, \ucd08\ub300\uad00\ub9ac\uc790 \ub0b4\ubcf4\ub0b4\uae30 \ub2f9\ud560\ub54c",r,q,"landing_store_info","",""),new A.bQ("\uacb0\uc81c\uc815\ubcf4 \ud655\uc778",r,q,"landing_cardlist","",""),new A.bQ("\uc6b0\ub9ac \uac00\uac8c \ub9ac\ubdf0 \ud398\uc774\uc9c0\ub85c \uc774\ub3d9",r,q,"landing_delivery_review","",""),new A.bQ("POS \uba54\ub274\ubcc4 \ub9e4\ucd9c",r,q,"landing_menu","",""),new A.bQ("\uba54\uc778 \ub300\uc2dc\ubcf4\ub4dc",r,q,"landing_home","",""),new A.bQ("\uba54\uc778 \uce98\ub9b0\ub354",r,q,"landing_calendar","",""),new A.bQ("\uba54\uc778 \ubaa8\ub4e0\ub0b4\uc5ed",r,q,"landing_all_list","",""),new A.bQ("\uba54\uc778 \ub9e4\uc7a5\ube44\uc11c",r,q,"landing_secretary","",""),new A.bQ("\ub0b4\uc5ed\ubcf4\uae30 - \uce74\ub4dc\ud658\uae09\uae08 \uc870\ud68c(\ubc30\ub108\uc5d0\uc11c\ub9cc \uc0ac\uc6a9)",r,q,"landing_commission_refund","",""),new A.bQ("\uc0c1\uad8c\ubd84\uc11d \ub3d9\uc885\uc5c5\ub9e4\ucd9c\ube44\uad50\ub85c \uc774\ub3d9",r,q,"landing_zini_biz","",""),new A.bQ("\ubd80\uac00\uc138 \uc2e0\uace0 \uc790\ub8cc \ubc1c\uc1a1 \uacb0\uacfc \ud654\uba74",r,q,"landing_vat_result","",""),new A.bQ("CJFW \uc8fc\uc18c/\uc5c5\uc885 \ud654\uba74",r,q,"landing_deliveryinfo","",""),new A.bQ("CJFW \uc5c5\uc885 \uc120\ud0dd \ud654\uba74",r,q,"landing_bizcode","",""),new A.bQ("CJFW \uc8fc\uc18c \uac80\uc0c9 \ud654\uba74",r,q,"landing_address","",""),new A.bQ("AS \ubb38\uc758 \uc6f9\ud398\uc774\uc9c0\ub85c \uc774\ub3d9(landingType: inapp)",r,q,"landing_web_as","","")],t.UW),o=A.b([$.apX(),new A.G7(8,s)],t.VS),n=A.al3(s,new A.hm(4,B.eH,B.l1),s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,"Store ID \uc785\ub825",s,s,s,s,s,s,s,s,s,s,s,s,s)
+return new A.xu(new A.tG(B.P1,new A.OU(s,s,1/0,56),s),new A.dP(B.C4,A.agj(A.b([B.KO,new A.yn(this.d,n,B.LC,B.KR,B.KS,new A.ab3(this),o,!0,s),B.KP,A.aup(A.avc(new A.ab4(this,p),29,new A.ab5()))],t.F),B.eX,B.e5,B.rI),s),s)}}
 A.ab3.prototype={
 $1(a){var s=this.a
 s.av(new A.ab2(s,a))},
@@ -77563,7 +77560,7 @@ $0(){this.a.e=this.b},
 $S:0}
 A.ab4.prototype={
 $2(a,b){var s=null,r=this.b[b]
-return new A.pL(A.lv(r.b+"("+r.e+")",s,s,s,s,s,s),new A.ab1(this.a,r),s)},
+return new A.pL(A.lv(r.a+"("+r.d+")",s,s,s,s,s,s),new A.ab1(this.a,r),s)},
 $S:441}
 A.ab1.prototype={
 $0(){this.a.Bh(this.b)},
