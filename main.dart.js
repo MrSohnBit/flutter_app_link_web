@@ -77966,7 +77966,7 @@ v_(a){return this.a4R(a)},
 a4R(a){var s=0,r=A.U(t.H),q=this,p,o
 var $async$v_=A.V(function(b,c){if(b===1)return A.R(c,r)
 while(true)switch(s){case 0:p=q.y
-o='{"type":"'+a.b+'", "landingType":"'+a.c+'", "landingUrl":"'+a.d+'", "storeId":'+A.j(p===""?-1:p)+', "bankAccountId":"'+a.e+'", "reportMessageId":"'+a.f+'", "referenceDate": "", }'
+o='{"type":"'+a.b+'", "landingType":"'+a.c+'", "landingUrl":"'+a.d+'", "storeId":'+A.j(p===""?-1:p)+', "bankAccountId":"'+a.e+'", "reportMessageId":"'+a.f+'", "referenceDate": ""}'
 A.D_(o)
 q.kQ(o)
 return A.S(null,r)}})
