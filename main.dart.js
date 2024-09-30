@@ -77968,7 +77968,7 @@ var $async$v_=A.V(function(b,c){if(b===1)return A.R(c,r)
 while(true)switch(s){case 0:o=a.c
 n=q.y
 n=""+"{"+('"type":"'+a.b+'", ')+('"landingType":"'+o+'", ')+('"landingUrl":"'+a.d+'", ')+('"storeId":'+A.j(n===""?-1:n)+", ")+('"bankAccountId":"'+a.e+'", ')+('"reportMessageId":"'+a.f+'", ')+'"referenceDate": "","linkType": "kakao"'
-n=(o==="webview_ext_cj"?n+',"cjEventId": "1",':n)+"}"
+n=(o==="webview_ext_cj"?n+',"cjEventId": "1"':n)+"}"
 p=n.charCodeAt(0)==0?n:n
 A.D_(p)
 q.kQ(p)
