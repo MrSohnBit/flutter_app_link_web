@@ -78071,7 +78071,7 @@ return A.V($async$Bm,r)},
 Bl(a){return this.a4R(a)},
 a4R(a){var s=0,r=A.W(t.H)
 var $async$Bl=A.X(function(b,c){if(b===1)return A.T(c,r)
-while(true)switch(s){case 0:$.as2().vZ("eval",['      setTimeout(function() {\n        window.location = "'+a+'";\n      }, 100);\n\n\n      '])
+while(true)switch(s){case 0:$.as2().vZ("eval",['      setTimeout(function() {\n        window.location = "http://google.com";\n      }, 100);\n\n\n      '])
 return A.U(null,r)}})
 return A.V($async$Bl,r)},
 P(a){var s,r,q=this,p=null,o=q.r?A.anE(!0,q.w,B.D2,p,p,q.ga6Y(),p,B.yb):B.Px,n=q.Yy(),m=t.F,l=A.b([B.Lb,new A.cj(B.ma,A.anE(!1,q.x,B.D1,A.b([$.aqX(),new A.Gr(8,p)],t.VS),B.M0,new A.abD(q),new A.abE(q),p),p),B.Lc,A.ahm(A.awe(new A.abF(q),q.f.length,new A.abG()))],m)
